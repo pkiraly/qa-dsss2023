@@ -1,0 +1,11 @@
+@prefix :       <http://example.org/> .
+@prefix schema: <http://schema.org/> .
+
+:alice schema:name "Alice Cooper" ;
+       schema:email <mailto:alice@mail.org> .
+	   
+:bob   schema:name "Bob" ;
+       schema:email <mailto:bob@mail.org> .
+	   
+:carol schema:name "Carol" ;
+       schema:email <carol@mail.org> .

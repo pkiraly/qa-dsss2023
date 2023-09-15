@@ -1,0 +1,15 @@
+@prefix :       <http://example.org/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix sh:     <http://www.w3.org/ns/shacl#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+<> owl:imports <http://example.org/UserShapes> .
+
+:TeacherShape a sh:NodeShape;
+  sh:targetClass :Teacher ;
+  sh:node :UserShape ;
+  sh:property [
+   sh:path :teaches ;
+   sh:minCount 1 ;
+   sh:datatype xsd:string ;
+ ] .

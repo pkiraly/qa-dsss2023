@@ -1,0 +1,11 @@
+@prefix :       <http://example.org/> .
+@prefix schema: <http://schema.org/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+
+:alice :teaches :Algebra ;    # Passes as :UserShape
+       schema:name "Alice" .
+
+:bob   :teaches :Logic ;      # Fails as :UserShape
+       foaf:name "Robert" .
+
+:carol foaf:name 23 .         # Ignored

@@ -1,0 +1,5 @@
+@prefix :       <http://example.org/> .
+@prefix schema: <http://schema.org/> .
+
+:bob   a :User ;        
+  schema:alias "Bob" .
