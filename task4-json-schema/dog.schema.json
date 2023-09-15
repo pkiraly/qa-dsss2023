@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "breed": {
+      "type": "string",
+      "enum": ["golden retrievers", "Belgian Malinois", "Border Collie"]
+    },
+    "age": { "type": "integer", "maximum": 15, "minimum": 0 },
+    "weight": { "type": "number", "minimum": 0 },
+    "name": { "type": "string" }
+  }
+}

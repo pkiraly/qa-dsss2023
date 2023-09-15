@@ -1,4 +1,6 @@
 task3-shacl/.venv
+task4-json-schema/.venv
+task4-json-schema/.vscode
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
