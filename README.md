@@ -1,6 +1,6 @@
 # (Meta)data Quality materials for Data Science Summer School 2023, Göttingen
 
-* Further information about the SUmmer Scool: https://www.eresearch.uni-goettingen.de/news-and-events/summer-schools/data-science-summer-school-2023/
+* Further information about the Summer School: https://www.eresearch.uni-goettingen.de/news-and-events/summer-schools/data-science-summer-school-2023/
 * The slides of the (Meta)data Quality session: https://bit.ly/qa-dsss2023
 
 This repository contains materials for the (Meta)data Quality session, part of the Göttingen Data Science Summer School, 2023. The first part functions as an introduction to the topic, in the second part students will learn how to work with real data. The repository contains data and code for this part, organising into 4 tasks:
